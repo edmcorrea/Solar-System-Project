@@ -59,8 +59,10 @@ body {
 }
 
 .missionCardName {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.63);
   font-size: 22px;
   font-weight: 900;
+  margin: 0 15px;
 }
 
 .title-Planetas {
