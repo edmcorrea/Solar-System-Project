@@ -1,3 +1,85 @@
+* p {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body {
+  margin: 15px;
+  background-image: url("https://s2.glbimg.com/mdiJTN3_jMQdY5S7bZV53h6U4Cc=/e.glbimg.com/og/ed/f/original/2020/01/06/heic2002a.jpg");
+}
+
 .App {
   text-align: center;
+  color: aliceblue;
+}
+
+.header {
+  font-size: xx-large;
+  display: inline-block;
+}
+
+.planetsCards {
+  position: absolute;
+  display: flex;
+  font-size: 20px;
+}
+
+.missionsCard {
+  margin-top: 250px;
+}
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.missionCard {
+  margin: 5px;
+  padding: 5px;
+  background-color: gray;
+  background: rgba(50, 78, 97, 0.3);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.missionCard p {
+  padding: 2px;
+  -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+  text-stroke: 0.2px rgb(0, 0, 0);
+}
+
+.missionCardName {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.title-Planetas {
+  display: inline-block;
+  position: absolute;
+  font-size: 25px;
+}
+
+.title-Missões {
+  font-size: 25px;
+}
+
+.imgPlanets {
+  width: 100%;
+}
+
+.planeta0 {
+  display: flex;
+  background-color: red;
+  flex-direction: column;
+  float: left;
+  position: sticky;
+  width: 16%;
+
+  /* background-position: right top; */
 }
