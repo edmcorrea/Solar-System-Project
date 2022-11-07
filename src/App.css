@@ -1,32 +1,36 @@
 * p {
+  font-family: Lucida Console , Courier New , monospace;
   margin: 0;
   padding: 0;
-  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 body {
-  margin: 15px;
-  background-image: url("https://s2.glbimg.com/mdiJTN3_jMQdY5S7bZV53h6U4Cc=/e.glbimg.com/og/ed/f/original/2020/01/06/heic2002a.jpg");
+  background: url('https://s2.glbimg.com/mdiJTN3_jMQdY5S7bZV53h6U4Cc=/e.glbimg.com/og/ed/f/original/2020/01/06/heic2002a.jpg');
+  background-size: 100%;
 }
 
 .App {
-  text-align: center;
   color: aliceblue;
+  text-align: center;
 }
 
 .header {
-  font-size: xx-large;
-  display: inline-block;
+  color: white;
+  font-family: Epilogue , sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 150%;
+  margin-top: 100px;
+  text-align: center;
 }
 
 .planetsCards {
-  position: absolute;
   display: flex;
   font-size: 20px;
-}
-
-.missionsCard {
-  margin-top: 250px;
+  font-weight: 600;
+  justify-content: space-evenly;
+  margin: 70px 0;
+  width: 100%;
 }
 
 .missions {
@@ -35,23 +39,23 @@ body {
 }
 
 .missionCard {
-  margin: 5px;
-  padding: 5px;
-  background-color: gray;
   background: rgba(50, 78, 97, 0.3);
-  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(128, 128, 128, 0.329);
+  border: 1px solid black;
   border-radius: 15px;
   display: flex;
-  flex-direction: column;
   flex-basis: 20%;
+  flex-direction: column;
   flex-grow: 1;
   justify-content: center;
+  margin: 5px;
+  padding: 5px;
 }
 
 .missionCard p {
   padding: 2px;
-  -webkit-text-stroke: 0.2px rgb(0, 0, 0);
-  text-stroke: 0.2px rgb(0, 0, 0);
+  -webkit-text-stroke: 0.2px black;
+  text-stroke: 0.2px black;
 }
 
 .missionCardName {
@@ -60,26 +64,43 @@ body {
 }
 
 .title-Planetas {
-  display: inline-block;
-  position: absolute;
+  background-color: rgba(128, 128, 128, 0.438);
+  border-radius: 10px;
   font-size: 25px;
 }
+
 
 .title-Missões {
+  background-color: rgba(128, 128, 128, 0.438);
+  border-radius: 10px;
   font-size: 25px;
 }
 
-.imgPlanets {
-  width: 100%;
+.planetName {
+  font-size: 25px;
+  font-weight: 900;
 }
 
-.planeta0 {
-  display: flex;
-  background-color: red;
-  flex-direction: column;
-  float: left;
-  position: sticky;
-  width: 16%;
+.planeta0 .imgPlanets {
+  width: 4em;
+}
 
-  /* background-position: right top; */
+.planeta1 .imgPlanets, .planeta2 .imgPlanets {
+  width: 8em;
+}
+
+.planeta3 .imgPlanets {
+  width: 7em;
+}
+
+.planeta4 .imgPlanets, .planeta5 .imgPlanets {
+  width: 14em;
+}
+
+.planeta6 .imgPlanets {
+  width: 10em;
+}
+
+.planeta7 .imgPlanets {
+  width: 9em;
 }
