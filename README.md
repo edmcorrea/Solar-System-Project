@@ -14,17 +14,17 @@
 <!-- PROJECT LOGO -->
 <div align="center">
 
-  <h3 align="center">STREAM DE MÚSICAS - SPOTUNES</h3>
-    <p align="center"> Músicas de qualidade. Basta ouvir! </p>
+  <h3 align="center">Solar-System-Project</h3>
+    <p align="center"> Um pouco mais sobre os planetas e as missões espaciais </p>
   
   <p align="center">
-    <img width="700" height="400" src="src/images/para-gif-spotunes.gif">
+    <img width="700" height="400" src="GIF-SOLAR-SYSTEM.gif">
   </p>
   
   <br />
   
   <p align="center">
-    <a href="https://projeto-music-stream-spotunes.vercel.app/"><strong>Navegue na versão demo web »</strong></a>
+    <a href="https://solar-system-project-neon.vercel.app/"><strong>Navegue na versão demo web »</strong></a>
   </p>
 </div>
 
@@ -58,11 +58,10 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Desenvolvi uma página / plataforma de músicas, utilizando o ecossistema React!
+Desenvolvi uma página falando um pouco do Sistema Solar, utilizando o ecossistema React!
 
-O app consiste em um sistema que permite visualizar, buscar, ouvir, filtrar e favoritar músicas. 
-A base de dados foi a 1 API de músicas do iTunes-Apple (apenas 30 segundos de cada música).
-O layout teve como foco página web, então todos os protótipos vão estar desenvolvidos em telas menores.
+A página web consiste em uma fã-page que permite visualizar e buscar mais sobre os planetas do nosso Sistema Solar e as missões espaciais. 
+
 
 <p align="right">(<a href="#readme-top">Voltar ao Topo</a>)</p>
 
@@ -125,15 +124,23 @@ This is an example of how to list things you need to use the software and how to
 
 
 <!-- USAGE EXAMPLES -->
-## Uso
+## Detalhes do desenvolvimento
 
-Na tela principal, há a barra de navegação na esquerda, sendo possível navegar pelas páginas de "SEARCH", "FAVORITES" e "PROFILE". Além disso,  é possível Pesquisar por álbuns ou artistas e escolher o álbum que preferir (que faz referência a página SEARCH).
+  Neste projeto, verificamos se você é capaz de:
 
-Na página de ÁLBUM, é possível ouvir um trecho da música e favoritar a mesma, caso seja do interesse salvá-la na página de favoritos.
+  * Utilizar JSX no React;
 
-Na página de FAVORITES, é possível visualizar as músicas favoritadas e desfavoritá-las.
+  * Utilizar corretamente o método `render()` para renderizar seus componentes;
 
-Na página de PROFILE, é possível visualizar as informações do usuário e editá-las, inclusive a imagem.
+  * Utilizar `import` para trazer componentes em diferentes arquivos;
+
+  * Criar componentes de classe em React;
+
+  * Criar múltiplos componentes a partir de um array;
+
+  * Fazer uso de `props` corretamente;
+
+  * Fazer uso de `PropTypes` para validar as `props de um componente`.
 
 
 <!-- _=For more examples, please refer to the [Documentation](https://example.com)_ -->
@@ -190,7 +197,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Edmilson Corrêa - edm.correa@hotmail.com
 
-Link do Projeto: https://github.com/edmcorrea/projeto-music-stream-Spotunes-/tree/main
+Link do Projeto: https://github.com/edmcorrea/Solar-System-Project
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
